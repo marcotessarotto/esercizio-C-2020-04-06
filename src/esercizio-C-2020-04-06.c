@@ -32,7 +32,7 @@ int main(int argc, char **argv) {
 
 	findBruteForce(a,sizeof(a)/sizeof(int));
 
-
+	return 0;
 
 }
 
