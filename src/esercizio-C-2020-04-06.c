@@ -6,7 +6,6 @@
 
 int a_length;
 
-
 void findBruteForce(int a[]);
 
 int main() {
@@ -34,5 +33,7 @@ void findBruteForce(int a[]){
 			}
 		}
 	}
+
+	free(visited);
 
 }
