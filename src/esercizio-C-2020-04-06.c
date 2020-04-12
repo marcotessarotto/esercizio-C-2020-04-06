@@ -8,7 +8,9 @@ void findBruteForce(int a[], int length){
 
   int * visited;
   visited = calloc(length, sizeof(int));
-
+	if (visited == NULL) {
+	  return NULL;
+	}
 	for(int i = 0; i < length; i++){
 		int x = a[i];
 		if(visited[i] == 0){
